@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Shrikhand';
+    src: url('/fonts/shrikhand/Shrikhand-Regular.ttf');
+    font-family: 'roboto';
+    src: url("/fonts/roboto/Roboto-Regular.ttf");
+}
+@media (max-width: 640px) {
+body { 
+--pcolor: #9356DC;
+--scolor: #FF79DA;
+--tcolor: #99E2D0;
+font-family: 'roboto';
+color: black;
+margin:0;
+padding:0;
+}
+}
+#logo {
+       display: block;
+       width:50%;
+       margin-top: 15px;
+       margin-left: auto;
+       margin-right: auto;
+}
+
+.container {
+    background-color: rgb(246, 246, 246);
+    padding-bottom: 20px;
+}
+
+
+.recherche {
+  
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  padding-left: 95px;
+  background-color: rgb(234,234,234);
+  border-top: 2px solid lightgrey;
+}
+ 
+ .texte
+  { 
+    background-color: light;
+    padding-left: 30px;
+  }
+ 
+  h1 {
+
+    text-align: center;
+        font-size : 20px;
+  }
+  p {
+      text-align: center;
+      font-size: 15px;
+    color:grey;
+  }
+
+  .explorer
+   {
+    display: block;
+       margin :auto;
+       background: linear-gradient(to right, #FF79DA, #9356DC);
+       color: white;
+       font-size: 12px;
+       font-weight: bold;
+       padding:10px 20px;
+       margin-top: 20px;
+       border-radius: 20px;
+       border:none;
+       box-shadow: 2px 2px 0px rgb(225 225 225)
+       
+     
+       
+
+   }
+
+   h3
+   {
+       text-align: left;
+       margin-left: 10px
+   }
+
+.fonctionnement
+ { display: flex;
+  background-color: white;
+   flex-direction: column;
+   font-size: 13px;
+   height: 30px;
+   border-radius: 5px;
+ }
+ .choisissez{
+  position:relative;
+  left:20px;
+ }
+ i {
+   position:relative;
+   right:20px;
+   color:grey;
+ }
+ .choisissez .i
+  {display: flex;
+    align-items:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 170px;
+    background-color: rgb(246,246,246);
+    border-radius: 20px ;
+    box-shadow: 2px 2px 0px rgb(225 225 225);
+    background-color: lightgrey;
+
+  }
+.composez .i
+{display: flex;
+  align-items:center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 170px;
+  background-color: rgb(246,246,246);
+  border-radius: 20px ;
+  box-shadow: 2px 2px 0px rgb(225 225 225);
+  background-color: lightgrey;
+
+}
+.degustez .i{
+  
+  }
+
+.chiffre{
+
+ position: relative;
+ left:5px;
+ bottom: 3px ;
+ color:white;
+ background-color: #9356DC;
+ width: auto;
+ margin-left: 15px;
+ padding-top: 2px ;
+ padding-bottom: 2px;
+ padding-left:4px;
+ padding-right:4px;
+ border-radius: 25px;
+ font-size: 40%;
+
+}
